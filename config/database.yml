@@ -50,7 +50,7 @@ test:
 #
 production:
   <<: *default
-  host: fonzy-api.c78skszfk9a2.us-west-2.rds.amazonaws.com
+  host: localhost
   database: Fonzy_production
   username: fonzy_api
   password: <%= ENV['FONZY_DATABASE_PASSWORD'] %>
